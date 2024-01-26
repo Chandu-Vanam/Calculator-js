@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Classic</h2>
+        <input type="text" class="right" id="get-input">
+        <div class="container-btns">
+            <button class="funtion-btns" onclick="clearInput()">C</button>
+            <button class="funtion-btns" onclick="deleteField()">Del</button>
+            <button class="operation-btns" onclick="getOperation('%')">%</button>
+            <button class="operation-btns" onclick="getOperation('+')">+</button>
+            <button class="numbers-btns" onclick="getNumber(1)">1</button>
+            <button class="numbers-btns" onclick="getNumber(2)">2</button>
+            <button class="numbers-btns" onclick="getNumber(3)">3</button>
+            <button class="operation-btns" onclick="getOperation('-')">-</button>
+            <button class="numbers-btns" onclick="getNumber(4)">4</button>
+            <button class="numbers-btns" onclick="getNumber(5)">5</button>
+            <button class="numbers-btns" onclick="getNumber(6)">6</button>
+            <button class="operation-btns" onclick="getOperation('*')">x</button>
+            <button class="numbers-btns" onclick="getNumber(7)">7</button>
+            <button class="numbers-btns" onclick="getNumber(8)">8</button>
+            <button class="numbers-btns" onclick="getNumber(9)">9</button>
+            <button class="operation-btns" onclick="getOperation('/')">/</button>
+            <button class="misc-btns">+/-</button>
+            <button class="numbers-btns" onclick="getNumber(0)">0</button>
+            
+            <button class="misc-btns">.</button>
+            <button class="res-btn" onclick="giveResult()">=</button >
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
